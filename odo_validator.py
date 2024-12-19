@@ -245,7 +245,7 @@ def print_group_metrics(group_metrics):
 
 if __name__ == "__main__":
     root_folder =  base_dataset_path # Replace with your root folder
-    root_folder = os.path.join(root_folder, "62a4ff852be4ea4a151632a7/")
+    # root_folder = os.path.join(root_folder, "62a4ff852be4ea4a151632a7/")
     print("Starting dataset analysis...")
 
     output_csv_path = f"log/{root_folder.split('/')[-2]}/error.csv"  # Define the output CSV file path
