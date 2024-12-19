@@ -68,7 +68,7 @@ def main():
     # Save predictions to a CSV file
     if predictions:
         df = pd.DataFrame(predictions)
-        df.to_csv(output_csv, index=True, header=False)
+        df.to_csv(output_csv, index=False, header=False)
         logging.info(f"Predictions saved to {output_csv}")
     else:
         logging.warning("No valid predictions generated. CSV file was not created.")

@@ -1,3 +1,14 @@
+#############    Environment Setup    ##################
+
+1.Create a Virtual Environment:
+python3 -m venv odoOCRenv
+
+2.Activate the Environment:
+source odoOCRenv/bin/activate
+
+3.Install Dependencies:
+pip install ultralytics tabulate sklearn
+
 ###############  Testing Instructions ########
     --> Update the config.yaml File:
         --> update "test_folder_path" value  in config.yaml
