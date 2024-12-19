@@ -90,7 +90,7 @@ output_csv_path: output.csv #output_csv
 
 ########  2.(Optional)Inference config  #######################
 odo_region_detect_model_path : model/odo_region_detect_best_model.pt
-odo_orm_model_path: model/odo_orm_best_model.pth
+odo_ocr_model_path: model/odo_ocr_best_model.pth
 #######  3.(Optional) Training model optional config ########
 base_dataset_path: /Users/yarramsettinaresh/Downloads/train/
 odo_detect_model:
