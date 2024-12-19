@@ -196,7 +196,9 @@ def process_via_dataset(base_path, output_path, train_ratio=0.7, val_ratio=0.15,
 
     # Print dataset analysis
     print("\n=== Dataset Analysis ===")
-    print(f"Total images processed: {total_images}")
+    print(f"\nTotal images processed: {total_images}")
+    print(f"Total valid images: {total_images - invalid_images - missing_images}")
+    print(f"Total invalid images: {invalid_images}")
     print(f"Missing images: {missing_images}")
 
     for split_name, insights in dataset_insights.items():
@@ -206,9 +208,7 @@ def process_via_dataset(base_path, output_path, train_ratio=0.7, val_ratio=0.15,
         print(f"  Invalid images (odometer outside LCD): {insights['invalid']}")
         print(f"  Missing images: {insights['missing']}")
 
-    print(f"\nTotal valid images: {valid_images}")
-    print(f"Total invalid images: {invalid_images}")
-    print(f"Total missing images: {missing_images}")
+
 
 
 def train_yolo_mode(output_dataset_path):
