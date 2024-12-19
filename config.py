@@ -27,7 +27,7 @@ class OdoMeterOCRModeConfig:
 
 config_file = 'config.yaml'  # Replace with your actual config file path
 config = load_yaml_config(config_file)
-odo_orm_model_path = config["odo_orm_model_path"]
+odo_orm_model_path = config["odo_ocr_model_path"]
 odo_region_detect_model_path = config["odo_region_detect_model_path"]
 base_dataset_path = config["base_dataset_path"]
 test_folder = config.get("test_folder_path")
