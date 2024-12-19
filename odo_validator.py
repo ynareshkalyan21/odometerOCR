@@ -32,7 +32,7 @@ def save_error_details_to_csv(error_details, output_csv_path):
     # Define CSV headers
     # headers = ['Group Name', 'Image URL', 'Predicted Value', 'Expected Value', "yolo_value"]
     headers = list(error_details[0].keys())
-
+    os.makedirs(os.path.dirname(output_csv_path), exist_ok=True)
     # Write to the CSV file
     with open(output_csv_path, mode='w', newline='', encoding='utf-8') as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=headers)
@@ -128,6 +128,8 @@ def print_group_metrics_table(group_metrics, metrics_csv_path):
     print(tabulate(table_data, headers=headers, tablefmt="grid"))
 
     # Save metrics to CSV file
+    # os.makedirs(metrics_csv_path, exist_ok=True)
+    os.makedirs(os.path.dirname(metrics_csv_path), exist_ok=True)
     with open(metrics_csv_path, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(headers)
