@@ -12,7 +12,7 @@ source odoOCRenv/bin/activate
 ```
 installation
 ```bash
-pip install ultralytics,tabulate,sklearn
+pip install ultralytics tabulate scikit-learn
 ```
 _____________________________________
 # Testing Instructions ########

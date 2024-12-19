@@ -7,7 +7,7 @@ python3 -m venv odoOCRenv
 source odoOCRenv/bin/activate
 
 3.Install Dependencies:
-pip install ultralytics tabulate sklearn
+pip install ultralytics tabulate scikit-learn
 
 ###############  Testing Instructions ########
     --> Update the config.yaml File:
