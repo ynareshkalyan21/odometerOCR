@@ -1,0 +1,16 @@
+Total dataset images: 3846, Testing images: 3846
+Character-wise Metrics sorted by F1 Score:
+Character      F1 Score    Precision    Recall
+4                  0.98         0.99      0.98
+2                  0.98         0.98      0.98
+3                  0.98         0.98      0.99
+7                  0.98         0.98      0.98
+5                  0.98         0.99      0.97
+1                  0.98         0.97      0.98
+6                  0.97         0.98      0.97
+0                  0.97         0.97      0.97
+8                  0.97         0.97      0.97
+9                  0.97         0.97      0.97
+.                  0.81         0.95      0.70
+Success: 3593, Failed: 253, Total testing: 3846
+Accuracy: 93.42%

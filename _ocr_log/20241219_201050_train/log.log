@@ -1,0 +1,37 @@
+
+Epoch 1, Train Loss: 2.7202, Val Loss: 2.6464
+ Best model saved!
+Epoch 2, Train Loss: 2.3383, Val Loss: 1.9225
+ Best model saved!
+Epoch 3, Train Loss: 1.1224, Val Loss: 0.6592
+ Best model saved!
+Epoch 4, Train Loss: 0.5294, Val Loss: 0.4580
+ Best model saved!
+Epoch 5, Train Loss: 0.3842, Val Loss: 0.3162
+ Best model saved!
+Epoch 6, Train Loss: 0.3144, Val Loss: 0.2880
+ Best model saved!
+Epoch 7, Train Loss: 0.2660, Val Loss: 0.2725
+ Best model saved!
+Epoch 8, Train Loss: 0.2382, Val Loss: 0.2507
+ Best model saved!
+Epoch 9, Train Loss: 0.2168, Val Loss: 0.2182
+ Best model saved!
+Epoch 10, Train Loss: 0.2184, Val Loss: 0.1937
+ Best model saved!
+Epoch 11, Train Loss: 0.1638, Val Loss: 0.1726
+ Best model saved!
+Epoch 12, Train Loss: 0.1511, Val Loss: 0.1646
+ Best model saved!
+Epoch 13, Train Loss: 0.1470, Val Loss: 0.1674
+Epoch 14, Train Loss: 0.1451, Val Loss: 0.1592
+ Best model saved!
+Epoch 15, Train Loss: 0.1333, Val Loss: 0.1476
+ Best model saved!
+Epoch 16, Train Loss: 0.1287, Val Loss: 0.1360
+ Best model saved!
+Epoch 17, Train Loss: 0.1285, Val Loss: 0.1362
+Epoch 18, Train Loss: 0.1239, Val Loss: 0.1348
+ Best model saved!
+Epoch 19, Train Loss: 0.1145, Val Loss: 0.1525
+Epoch 20, Train Loss: 0.1171, Val Loss: 0.1416
